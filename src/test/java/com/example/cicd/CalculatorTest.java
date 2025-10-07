@@ -1,6 +1,7 @@
 package com.example.cicd;
 
 import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -32,5 +33,20 @@ class CalculatorTest {
         Calculator c = new Calculator();
         List<Integer> nums = Arrays.asList(1, 2, 3, null, 4);
         assertEquals(c.sumUp(nums), c.addAll(nums));
+    }
+
+    @Test
+    void testSubstract() {
+        Calculator c = new Calculator();
+        assertEquals(2, c.subtract(5, 3));
+        assertEquals(-1, c.subtract(2, 3));
+    }
+
+    @Test
+    void testDivide() {
+        Calculator c = new Calculator();
+        assertEquals(2, c.divide(6, 3));
+        assertEquals(0, c.divide(1, 2));
+        assertEquals(0, c.divide(10, 0));
     }
 }
