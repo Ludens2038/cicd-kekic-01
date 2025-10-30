@@ -48,3 +48,4 @@ class CalculatorTest {
         assertEquals(0, c.divide(1, 2));
         assertEquals(0, c.divide(10, 0));
 }
+}
