@@ -1,4 +1,4 @@
-name: SONAR
+name: SONAR_CUBE
 on:
   push:
     branches: [ main ]
