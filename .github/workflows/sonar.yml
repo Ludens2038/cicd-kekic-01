@@ -52,6 +52,7 @@ jobs:
           # explicit params if auto-detect fails:
           # projectKey: your_org_your_project
           # organization: your_org
+          # einfach nur ein kommentar
           args: >
              -Dsonar.projectKey=Ludens2038_cicd-kekic-01
              -Dsonar.organization=ludens2038
