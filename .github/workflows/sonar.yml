@@ -54,7 +54,7 @@ jobs:
           # organization: your_org
           args: >
              -Dsonar.projectKey=Ludens2038_cicd-kekic-01
-             -Dsonar.organization=Ludens2038
+             -Dsonar.organization=ludens2038
              -Dsonar.branch.name=main  
              -Dsonar.java.binaries=target/classes
              -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
