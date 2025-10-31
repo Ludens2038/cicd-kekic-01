@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class CalculatorTest {
 
+    // adding this comment to test badges
     @Test
     void testAdd() {
         Calculator c = new Calculator();
