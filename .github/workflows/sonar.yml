@@ -45,7 +45,7 @@ jobs:
           path: target/site/jacoco
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarqube-scan-action@v6
+        uses: SonarSource/sonarcloud-github-action@v2
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
@@ -53,8 +53,8 @@ jobs:
           # projectKey: your_org_your_project
           # organization: your_org
           args: >
-             -Dsonar.projectKey=ludens2038_cicd-kekic-01
-             -Dsonar.organization=ludens2038
+             -Dsonar.projectKey=Ludens2038_cicd-kekic-01
+             -Dsonar.organization=Ludens2038
              -Dsonar.branch.name=main  
              -Dsonar.java.binaries=target/classes
              -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
