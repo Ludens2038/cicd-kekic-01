@@ -45,7 +45,7 @@ jobs:
           path: target/site/jacoco
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-scan-action@v2
+        uses: SonarSource/sonarcube-scan-action@v2
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
