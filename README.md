@@ -1,8 +1,6 @@
 # CI/CD Übung – Java Basisprojekt (Ü1 mit Anleitungen)
 [![CI](https://github.com/Ludens2038/cicd-kekic-01/actions/workflows/ci.yml/badge.svg)](https://github.com/Ludens2038/cicd-kekic-01/actions/workflows/ci.yml)
 
-[![SONAR](https://github.com/Ludens2038/cicd-kekic-01/actions/workflows/sonar.yml/badge.svg)](https://github.com/Ludens2038/cicd-kekic-01/actions/workflows/sonar.yml)
-
 Dieses Repository ist der Startpunkt für **Übung 1** und wird in **allen folgenden Übungen** weiterverwendet
 (CI mit GitHub Actions → SonarCloud → Docker → Security-Scan).
 
