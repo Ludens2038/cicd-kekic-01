@@ -21,3 +21,4 @@ ENTRYPOINT ["java","-cp","/app/app.jar","com.example.cicd.App"]
 
 # Falls deine App ein HTTP-Server ist, öffne den Port:
 # EXPOSE 8080
+#touch
