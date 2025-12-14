@@ -14,7 +14,7 @@ FROM eclipse-temurin:17-jre
 WORKDIR /app
 
 # Kopiere das erzeugte JAR aus target nach /app/app.jar
-COPY --from=build /app/target/ci-cd-uebung-1.0.0-shaded.jar /app/app.jar
+COPY --from=build /app/target/ci-cd-uebung-1.0.0.jar /app/app.jar
 
 # Wenn kein Main-Manifest vorhanden ist: starte per FQCN - fully qualified name (deine Main-Klasse)
 ENTRYPOINT ["java","-jar","/app/app.jar"]
