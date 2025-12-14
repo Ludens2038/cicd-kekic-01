@@ -139,6 +139,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: docker-build-artifact
     steps:
+      - uses: actions/checkout@v4
+
       - name: Download image artifact
         uses: actions/download-artifact@v4
         with:
@@ -184,6 +186,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: docker-build-artifact
     steps:
+      - uses: actions/checkout@v4
+
       - name: Download image artifact
         uses: actions/download-artifact@v4
         with:
